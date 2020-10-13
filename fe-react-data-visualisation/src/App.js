@@ -7,7 +7,10 @@ import MeteoriteList from "./components/MeteoriteList";
 class App extends React.Component {
   state = {
     meteorites: [],
+    selectedMeteor: {}
   };
+
+
   componentDidMount() {
     fetch("https://data.nasa.gov/resource/gh4g-9sfh.json?$limit=10")
       .then((res) => {
