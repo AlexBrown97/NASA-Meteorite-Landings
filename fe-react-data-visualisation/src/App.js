@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
+import WorldMap from './components/Map';
 import MeteoriteList from "./components/MeteoriteList";
 
 class App extends React.Component {
@@ -20,6 +21,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
+        <WorldMap />
         <MeteoriteList meteorites={this.state.meteorites} />
       </div>
     );
