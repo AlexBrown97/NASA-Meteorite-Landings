@@ -10,6 +10,9 @@ class App extends React.Component {
     selectedMeteor: {}
   };
 
+  setSelectedMeteor=(lat, long) => {
+    this.setState({selectedMeteor: {lat,long}})
+  }
 
   componentDidMount() {
     fetch("https://data.nasa.gov/resource/gh4g-9sfh.json?$limit=10")
@@ -24,8 +27,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <WorldMap />
-        <MeteoriteList meteorites={this.state.meteorites} />
+        <WorldMap lat={this.state.selectedMeteor.lat} long={this.state.selectedMeteor.long}/>
+        <MeteoriteList meteorites={this.state.meteorites} setSelectedMeteor={this.setSelectedMeteor} />
+        
       </div>
     );
   }
