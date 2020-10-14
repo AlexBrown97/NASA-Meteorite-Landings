@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  background-image: url("space.jpg");
 }
-
+.header {
+  padding-top: 1.5ch;
+  font-size: 50px;
+  color: white;
+}
 #mapid {
   height: 180px;
-  margin: 0 auto;
+  position: fixed;
 }
 
 .leaflet-container {
@@ -12,6 +17,15 @@
   width: 500px;
 }
 
-section .card {
-  border-style: dotted;
+.card {
+  color: white;
+  border-style: groove;
+  font-size: large;
+}
+
+.button {
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  padding: 3px;
 }

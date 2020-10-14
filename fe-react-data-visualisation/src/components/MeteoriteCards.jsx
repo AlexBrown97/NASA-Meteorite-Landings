@@ -8,6 +8,7 @@ const MeteoriteCards = (props) => {
       <h3>Year Discovered: {props.year}</h3>
       <h3>Mass(g): {props.mass}</h3>
       <button
+        className="button"
         onClick={() =>
           props.setSelectedMeteor(
             props.geolocation.latitude,
