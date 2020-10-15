@@ -10,6 +10,7 @@
 #mapid {
   height: 180px;
   position: fixed;
+  right: 0px;
 }
 
 .leaflet-container {
