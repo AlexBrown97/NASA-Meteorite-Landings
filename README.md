@@ -7,6 +7,7 @@
 
 2. Navigate to the repository directory:
 `<cd NASA-Meteorite-Landings>`
+`<cd fe-react-data-visualisation`
 
 3. Install the required modules:
 `<npm i>`
