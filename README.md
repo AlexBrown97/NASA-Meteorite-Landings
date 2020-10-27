@@ -3,17 +3,17 @@
 ### Getting Started:
 
 1. Clone the repository: 
-`<git clone https://github.com/AlexBrown97/NASA-Meteorite-Landings>`
+`git clone https://github.com/AlexBrown97/NASA-Meteorite-Landings`
 
 2. Navigate to the repository directory:
-`<cd NASA-Meteorite-Landings>`
-`<cd fe-react-data-visualisation`
+`cd NASA-Meteorite-Landings`
+`cd fe-react-data-visualisation`
 
 3. Install the required modules:
-`<npm i>`
+`npm i`
 
 4. Start the local server:
-`<npm start>`
+`npm start`
 
 
 ### Task:
